@@ -63,7 +63,7 @@ function Mario() {
     this.width = 50
     this.height = 50
     this.imagen = new Image()
-    this.imagen.src = 'https://bit.ly/2v3FTX5'
+    this.imagen.src = ('Captura.PNG')
     this.imagen.onload = function() {
         this.draw()
     }.bind(this)
